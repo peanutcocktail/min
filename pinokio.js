@@ -13,7 +13,7 @@ module.exports = {
       href: "shell.js"
     }, {
       text: "config",
-      icon: "fa-regular fa-keyboard",
+      icon: "fa-regular fa-pen-to-square",
       href: "config.json",
       fs: true
     }]
