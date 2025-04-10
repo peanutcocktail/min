@@ -8,11 +8,14 @@ module.exports = {
     let shell_running = info.running("shell.js")
     return [{
       default: true,
+      icon: "fa-regular fa-keyboard",
       text: "shell",
       href: "shell.js"
     }, {
       text: "config",
-      href: "config.json"
+      icon: "fa-regular fa-keyboard",
+      href: "config.json",
+      fs: true
     }]
   }
 }
